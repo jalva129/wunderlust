@@ -169,27 +169,42 @@
                 <h1>Contact Us</h1>
                 <form>
                     <label for="first">First Name</label>
-                    <input type="text" id="first" placeholder="(Enter first name)" required>
+                    <input type="text" name="first" id="first" placeholder="(Enter first name)" required>
                     <label for="last">Last Name</label>
-                    <input type="text" id="last" placeholder="(Enter last name)" required>
+                    <input type="text" name="last" id="last" placeholder="(Enter last name)" required>
                     <fieldset>
                         <legend>Contact Method</legend> 
                         <label for="email">Email</label>
-                        <input type="radio" id="email" required>
+                        <input type="radio" name="email"id="email" required>
                         <label for="txt">Text</label>
-                        <label type="radio" id="txt">
+                        <label type="radio" name="txt" id="txt">
                         <label for="phone">Phone</label>
-                        <input type="radio" id="phone">
+                        <input type="radio" name="phone" id="phone">
                     </fieldset>
                     <label for="Eaddress">Email Address</label>
-                    <input type="email" id="Eaddress" placeholder="Enter Email" required>
+                    <input type="email" id="Eaddress" name="Eaddress" placeholder="Enter Email" required>
                     <label for="number">Phone Number</label>
-                    <input type="tel" id="number" placeholder="(Enter telephone number)" required>
+                    <input type="tel" id="number" name="number" placeholder="(Enter telephone number)" required>
 
                     <label for="destination">Destination</label>
-                     (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
+                    <select name="destination" id="destination" required>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="granada">Granada</option>
+                        <option value="ibiza">Ibiza</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="majorca">Majorca</option>
+                        <option value="seville">Seville</option>
+                        <option value="tenerife">Tenerife</option>
+                        <option value="valencia">Valencia</option>
+                    </select>
                     <label for="time">Travel Time</label>
-                     (Fall, Winter, Spring, Summer, Flexible)
+                    <select name="time" id="time" required>
+                        <option value="fall">Fall</option>
+                        <option value="winter">Winter</option>
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
                 </form>
             </section>
         </main>
