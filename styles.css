@@ -64,8 +64,7 @@ header{
 h1{
   font-size: 60px;
 }
-#skip a
-{
+#skip {
 position:absolute;
 left:-10000px;
 top:auto;
