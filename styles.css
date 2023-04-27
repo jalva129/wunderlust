@@ -59,10 +59,11 @@ body{
     width: 428px;
 }
 header{
-    background-color: #55BCD5;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(85,188,213,1) 75%);
 }
 h1{
-  font-size: 60px;
+  font-size: 40px;
 }
 #skip {
 position:absolute;
