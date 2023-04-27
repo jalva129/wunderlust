@@ -50,8 +50,8 @@ table {
 }
 
 /*mobile styles*/
-  @import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
 body{
     font-family:'Montserrat', sans-serif;
 
