@@ -80,9 +80,9 @@ width:auto;
 height:auto;
 }
 
-
 p{
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
 }
 #menu-toggle input {
     display: block;
@@ -104,7 +104,8 @@ p{
     height: 30px;
   }
   #menu-toggle label span {
-    display: none;
+    color: black;
+    background-color: #F6D64A;
   }
 #menu-toggle {
     display: block;
