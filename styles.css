@@ -53,7 +53,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
 body{
-    width: 428px;
+   max-width: 428px;
 }
 p{
     font-family: 'Montserrat', sans-serif;
