@@ -105,6 +105,7 @@ p{
 #menu-toggle {
     display: block;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
     top: 50px;
     left: 50px;  
     z-index: 1;  
