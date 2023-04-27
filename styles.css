@@ -59,10 +59,41 @@ body{
 header{
     background-color: #55BCD5;
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+ 
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+
 p{
     font-family: 'Montserrat', sans-serif;
 }
 
+nav{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    /* Hide the menu off-screen to the left */
+    left: -100%;
+    -webkit-transition: left 0.3s ease;
+    -o-transition: left 0.3s ease;
+    transition: left 0.3s ease; 
+}
 ul {
     list-style-type: none;
     margin: 0;
