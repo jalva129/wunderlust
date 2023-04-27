@@ -143,11 +143,11 @@ p{
   }
  #menu-toggle ul{
     position: absolute;
-    width: 300px;
+    width: 428px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background: #ededed;
+    background: #499BD2;
     list-style-type: none;
     /* Hide the menu off-screen to the left */
     right: -100%;
@@ -158,6 +158,7 @@ p{
 #menu-toggle li {
     padding: 10px 0;
     font-size: 22px;
+    font-weight: 700px;
   }
 
   #menu-toggle input:checked ~ ul {
