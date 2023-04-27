@@ -57,6 +57,7 @@ table {
 body{
     font-family: 'Molle', cursive;
     width: 428px;
+    margin: 0 auto;
 }
 header{
   background: rgb(255,255,255);
@@ -105,9 +106,10 @@ p{
     -webkit-touch-callout: none;
   }
   #menu-toggle label {
+    margin: 0 auto;
     background-color: #F6D64A;
     padding: 20px 15px;
-    position: absolute;
+    position: relative;
     top: 30px;
     right: 50px;
     display: block;
@@ -146,11 +148,12 @@ p{
     width: 428px;
     margin: -100px 0 0 -50px;
     padding: 50px;
-    padding-top: 125px;
+    align-content: center;
     background: #499BD2;
     list-style-type: none;
+    border: 2px solid #000;
     /* Hide the menu off-screen to the left */
-    right: -100%;
+    right: -120%;
     -webkit-transition: left 0.3s ease;
     -o-transition: left 0.3s ease;
     transition: left 0.3s ease; 
@@ -177,7 +180,9 @@ p{
     h2{
       font-size: 30px;
     }
-
+    h3{
+      font-size: 25px;
+    }
     #img-grid{
       display: grid;
       grid-template-columns: 1fr;
@@ -189,6 +194,7 @@ p{
     }
 
     #plan div{
+      width: 428px;
       display: grid;
       grid-template-columns: 1fr;
     }
@@ -212,6 +218,10 @@ p{
       font-size: 30px;
       font-weight: 700px;
 
+    }
+
+    q{
+      font-family: 'Montserrat', sans-serif;
     }
 
     #about{
