@@ -201,6 +201,27 @@ p{
     }
     #plan h4{
       font-family: 'Montserrat', sans-serif;
+      font-variant: capitalize;
+    }
+
+    #testimonials div{
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    #testimonials h4{
+      font-size: 30px;
+      font-weight: 700px;
+
+    }
+
+    #about{
+      background-color: #499BD2;
+    }
+
+    #about div{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      font-family: 'Montserrat', sans-serif;
     }
 
     
