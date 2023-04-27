@@ -98,14 +98,18 @@ p{
     -webkit-touch-callout: none;
   }
   #menu-toggle label {
+    background-color: #F6D64A;
+    padding: 20px 15px;
     position: relative;
+    top: 30px;
+    right: 50px;
     display: block;
     width: 30px;
     height: 30px;
   }
   #menu-toggle label span {
     color: black;
-    background-color: #F6D64A;
+   
   }
 #menu-toggle {
     display: block;
