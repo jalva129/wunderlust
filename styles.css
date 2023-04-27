@@ -62,3 +62,9 @@ header{
 p{
     font-family: 'Montserrat', sans-serif;
 }
+
+nav{
+    text-decoration: none;
+    padding: 25px 10px;
+    float: left;
+}
