@@ -52,9 +52,13 @@ table {
 /*mobile styles*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
-body{
-   max-width: 428px;
+header{
+    background-color: #55BCD5;
 }
 p{
     font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Molle', cursive;
 }
