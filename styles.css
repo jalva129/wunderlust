@@ -108,7 +108,10 @@ ul {
     padding: 8px 16px;
     text-decoration: none;
   }
-  
-  .active{
-    background-color: #F6D64A;
+  #menu-toggle input:checked ~ ul {
+    left: 0;
   }
+  
+.sr-only{
+    visibility: hidden;
+}
