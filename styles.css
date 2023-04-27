@@ -173,3 +173,34 @@ p{
     height:1px;
     overflow:hidden;
     }
+
+    h2{
+      font-size: 30px;
+    }
+
+    #img-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5px;
+    }
+
+    #plan{
+      background: #F6D64A
+    }
+
+    #plan div{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    #plan div section{
+      background-color: #499BD2;
+      align-content: center;
+      border: 3px solid #ffffff;
+      border-radius: 25px;
+    }
+    #plan h4{
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    
