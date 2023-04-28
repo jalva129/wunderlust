@@ -62,17 +62,6 @@ h4, p, q, small, nav, button, form {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
-:root {
---input-border: #8b8a8b;
---input-focus-h: 245;
---input-focus-s: 100%;
---input-focus-l: 42%;
-}
-
-
-
 #skip
 {
 position:absolute;
@@ -98,10 +87,6 @@ height:auto;
   top: 50px;
   left: 50px;  
   z-index: 1;  
-  -webkit-user-select: none;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
 }
 
 #menu-toggle a {
@@ -127,7 +112,6 @@ height:auto;
   cursor: pointer;  
   opacity: 0;
   z-index: 2; 
-  -webkit-touch-callout: none;
 }
 
 #menu-toggle label {
@@ -149,25 +133,8 @@ height:auto;
   background: #000000;
   border-radius: 3px;  
   z-index: 1;  
-  -webkit-transform-origin: 4px 0px;  
-      -ms-transform-origin: 4px 0px;  
-          transform-origin: 4px 0px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
-#menu-toggle label div:first-child {
-  -webkit-transform-origin: 0% 100%;
-      -ms-transform-origin: 0% 100%;
-          transform-origin: 0% 100%;
-}
-
-#menu-toggle label div:nth-child(2) {
-    -webkit-transform-origin: 0% 0%;
-      -ms-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
-}
 
 #menu-toggle input:checked + label div {
   background: #232323;
