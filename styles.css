@@ -50,7 +50,7 @@ table {
 	border-spacing: 0;
 }
 
-/*mobile styles*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
 
@@ -62,7 +62,7 @@ h4, p, q, small, nav, button, form {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* End of Fonts */
+
 
 :root {
 --input-border: #8b8a8b;
@@ -71,7 +71,7 @@ h4, p, q, small, nav, button, form {
 --input-focus-l: 42%;
 }
 
-/* Skip Links */
+
 
 #skip
 {
@@ -90,7 +90,7 @@ width:auto;
 height:auto;
 }
 
-/*End of Skip Links */
+
 
 #menu-toggle {
   display: block;
@@ -370,8 +370,8 @@ input {
   border: 3px solid #9B26B0;
   margin-bottom: 10%;
   padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 input::placeholder {
@@ -393,7 +393,9 @@ label {
   font-weight: bold;
   line-height: 1;
 }
-
+fieldset{
+  padding: 15px;
+}
 legend {
   font-weight: bold;
   font-size: 1.5em;
@@ -406,9 +408,9 @@ input[type="radio"] {
   margin: 0;
   font: inherit;
   color: currentColor;
-  width: 1.15em;
-  height: 1.15em;
-  border: 0.15em solid currentColor;
+  width: 3em;
+  height: 3em;
+  
   border-radius: 50%;
   transform: translateY(-0.075em);
 
@@ -418,14 +420,13 @@ input[type="radio"] {
 
 input[type="radio"]::before {
   content: "";
-  width: 0.65em;
-  height: 0.65em;
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
   transform: scale(0);
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em #9B26B0;
-  /* Windows High Contrast Mode */
-  background-color: CanvasText;
+  background-color: #9B26B0;
 }
 
 input[type="radio"]:checked::before {
@@ -437,7 +438,7 @@ input[type="radio"]:focus {
   outline-offset: max(2px, 0.15em);
 }
 
-label {
+ label {
   text-transform: uppercase;
 }
 
@@ -502,33 +503,40 @@ margin-bottom: 5%;
 }
 
 @media screen and (min-width: 768px) {
-
+#menu-toggle{
+  height: 1px;
+}
+#toggle input{
+  height: 1px;
+}
 ul {
-position: absolute;
-display: inline-block;
-left: 0;
+margin: 0;
+position: relative;
+display: flex;
+top: 10px;
+right: 150px;
+border-style: none;
 list-style: none;
-width: 50%;
-margin-left: 1%;
-padding-right: 0%;
 background-color: #FFFFFF00;
 list-style: none;
+gap: 10px;
 }
 ul li {
-padding-right: 5%;
-padding-top: 2%;
-padding-left: 5%;
-padding-bottom: 2%;
+padding: 15px 20px;
+widtH: 75%;
 background-color: #FFFFFF;
 display: inline-block;
-margin-top: 35%;
-margin-right: 90%;
+margin: 0 auto;
+border-style: none;
+
 }
 
-
+.active {
+  background-color: #F6D64A;
+}
 li a {
 margin: 0;
-padding: 0;
+padding: 10px;
 text-align: center;
 }
 
@@ -602,6 +610,7 @@ padding: 5% 10% 5% 10%;
 }
 
 footer {
+background-color: lightgray;
 padding: 0;
 margin: 0 auto;
 display: inline-block;
